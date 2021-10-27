@@ -12,6 +12,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  font-family: "Playfair Display", serif;
 }
 
 h1 {
@@ -30,6 +31,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: "Roboto", sans-serif;
 }
 
 .navigation-links {
@@ -107,4 +109,16 @@ p {
     text-align: center;
     margin: 0 20px;
   }
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+
+i {
+  font-size: 60px;
+  color: #6c63ff;
+  margin: 10px;
 }
