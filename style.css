@@ -1,18 +1,25 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --branding-color: #7c73e6;
+  --secondary-color: #fafafa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Roboto", sans-serif;
+  --link-font-family: "Balsamiq Sans", cursive;
 }
 
 body {
   margin-top: 100px;
+  font-family: var(--default-font-family);
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
 }
 
 h1 {
@@ -31,7 +38,6 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
 }
 
 .navigation-links {
@@ -49,7 +55,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--branding-color);
   box-shadow: var(--box-shadow);
   color: white;
   font-family: "Balsamiq Sans", cursive;
@@ -61,12 +67,12 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  font-family: "Balsamiq Sans", cursive;
+  border: 1px solid var(--branding-color);
+  font-family: var(--link-font-family);
 }
 
 .homepage-link {
-  color: var(--primary-color);
+  color: var(--branding-color);
   text-align: center;
   display: block;
 }
@@ -82,7 +88,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--branding-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -126,5 +132,26 @@ i {
 }
 
 .container {
-  font-family: "Balsamiq Sans", cursive;
+  font-family: var(--link-font-family);
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 48px;
+  line-height: 2;
+}
+
+.hero h3 {
+  font-family: var(--default-font-family);
+  font-size: 32px;
+  font-weight: normal;
+  margin: 0;
+  opacity: 0.7;
+  line-height: 1.5;
 }
