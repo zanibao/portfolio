@@ -1,6 +1,6 @@
 :root {
   --branding-color: #7c73e6;
-  --second-color: #fafafa;
+  --second-color:#F7F7F7;
   --third-color: #ffe9e3;
   --forth-color: #c4c1e0;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -16,16 +16,17 @@
 .hero {
   background: var(--second-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px 0px 20px;
 }
 
 .hero h1 {
-  padding: 24px;
+  padding: 0px;
+  background-color: var(--second-color);
 }
 
 .hero p {
   font-family: var(--default-font-family);
-  font-size: 48px;
+  font-size: 24px;
   margin: 0;
 }
 
@@ -103,7 +104,6 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
   background: var(--branding-color);
   box-shadow: var(--box-shadow);
   color: var(--second-color);
@@ -149,41 +149,8 @@ p {
   font-family: var(--default-font-family);
 }
 
-@media (max-width: 900px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-
-  h2 {
-    font-size: 44px;
-    text-align: center;
-  }
-
-  .hero {
-    background: var(--second-color);
-    text-align: center;
-    padding: 60px 20px 10px 20px;
-  }
-
-  .hero h1 {
-    font-size: 48px;
-    line-height: 1.2;
-    padding: 12px;
-  }
-
-  .hero h2 {
-    font-size: 24px;
-  }
-
-  .hero p {
-    font-size: 18px;
-  }
-
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
+.weather-image {
+  padding-top: ;
 }
 
 footer {
@@ -228,4 +195,41 @@ small {
   text-decoration: none;
   color: var(--forth-color);
   font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .hero {
+    background: var(--second-color);
+    text-align: center;
+    padding: 60px 20px 10px 20px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    padding: 12px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
