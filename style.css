@@ -1,6 +1,6 @@
 :root {
   --branding-color: #7c73e6;
-  --second-color:#F7F7F7;
+  --second-color: #f7f7f7;
   --third-color: #ffe9e3;
   --forth-color: #c4c1e0;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -149,10 +149,6 @@ p {
   font-family: var(--default-font-family);
 }
 
-.weather-image {
-  padding-top: ;
-}
-
 footer {
   display: block;
   text-align: center;
@@ -211,7 +207,7 @@ small {
   .hero {
     background: var(--second-color);
     text-align: center;
-    padding: 60px 20px 10px 20px;
+    padding: 60px 20px 0px 20px;
   }
 
   .hero h1 {
@@ -221,7 +217,7 @@ small {
   }
 
   .hero h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .hero p {
@@ -231,5 +227,14 @@ small {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  footer .social-link a {
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+
+  footer .social-link a:hover {
+    font-size: 18px;
   }
 }
