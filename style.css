@@ -123,12 +123,23 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  margin: 30px 0;
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
 }
 
-.about-paragraphs p {
-  margin: 10px;
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section p {
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+  text-align: center;
 }
 
 .email-link {
@@ -222,6 +233,11 @@ small {
 
   .hero p {
     font-size: 16px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 
   .project-description {
