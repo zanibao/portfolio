@@ -161,6 +161,14 @@ p {
   font-family: var(--default-font-family);
 }
 
+.coding-icons {
+  text-align: center;
+  margin: 0;
+  padding: 0px 0px 30px 0px;
+  font-size: 48px;
+  color: var(--branding-color);
+}
+
 footer {
   display: block;
   text-align: center;
@@ -180,7 +188,6 @@ footer .contact-box h3 {
 
 footer .contact-box p {
   margin: 0;
-  padding: ;
 }
 
 footer .connect-social-media {
@@ -221,6 +228,16 @@ small {
   font-size: 16px;
 }
 
+.news-box {
+  margin: 0;
+  text-align: center;
+}
+
+.news-box h3 {
+  color: var(--branding-color);
+  font-weight: bold;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 48px;
@@ -252,7 +269,7 @@ small {
     font-size: 16px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
