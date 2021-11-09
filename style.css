@@ -52,6 +52,7 @@ h5,
 h6 {
   margin: 0;
   font-family: var(--heading-font-family);
+  color: black;
 }
 
 h1 {
@@ -123,21 +124,21 @@ p {
   display: block;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section p {
+.content-container p {
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content {
   margin: 30px;
   text-align: center;
 }
@@ -164,6 +165,22 @@ footer {
   display: block;
   text-align: center;
   margin: 30px;
+}
+
+footer .contact-box {
+  background: var(--second-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  font-family: var(--heading-font-family);
+}
+
+footer .contact-box h3 {
+  font-size: 28px;
+}
+
+footer .contact-box p {
+  margin: 0;
+  padding: ;
 }
 
 footer .connect-social-media {
