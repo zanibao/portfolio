@@ -238,6 +238,19 @@ small {
   font-weight: bold;
 }
 
+.app-hover:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.portfolio-box {
+  padding-top: 60px;;
+}
+
+.portfolio-box h3 {
+  line-height: 1.5;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 48px;
@@ -287,4 +300,8 @@ small {
   footer .social-link a:hover {
     font-size: 18px;
   }
+
+  .portfolio-box {
+  padding-top: 0px;;
+}
 }
