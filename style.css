@@ -251,6 +251,15 @@ small {
   line-height: 1.5;
 }
 
+.contact-links h3 {
+  padding: 14px;
+}
+
+.contact-links a {
+  color: var(--branding-color);
+  font-family: var(--default-font-family);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 48px;
